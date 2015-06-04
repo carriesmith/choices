@@ -17,6 +17,10 @@ form{
   position: relative;
 }
 
+ul{
+  padding:0;
+}
+
 .nextButton, .addOption{
   width: 40px;
 }
