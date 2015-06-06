@@ -5,45 +5,46 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-form{
-  position: relative;
-  background: #EFEFEF;
-  display: block;
-  width: 70%;
-  margin: 10px auto;
-  min-height: 400px;
-  padding: 5px 2%;
-  border-radius: 10px;
-  position: relative;
-}
+ body{
+    font-size: 18px;
+  }
 
-ul{
-  padding:0;
-}
+  h1 {
+    text-transform: uppercase;
+  }
 
-.nextButton, .addOption{
-  width: 40px;
-}
+  .description p{
+    margin: 20px 0;
+  }
 
-.addOption {
-  display: block;
-  margin: 0 auto;
-}
+  .description{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+  }
 
-.addOption, .optionName {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+  
+  .todo{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+  }
 
-.nextButton {
-  width: 40px;
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  .options-list{
+    text-align: center;
+  }
 
-.fa {
-  color: grey;
-  /*font-size: 20px;*/
-}
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    cursor: move;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .options-list li {
+    margin-top: 5px;
+  }
