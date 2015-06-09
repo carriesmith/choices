@@ -23,7 +23,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   }
 
   
-  .todo{
+  .option-form, .value-form{
     display: block;
     width: 70%;
     margin: 10px auto;
